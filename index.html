@@ -7,11 +7,14 @@
   <body>
     <div id="bs-console">
     </div>
+    <div id="field">
+      <h1>Mouse1</h1>
+      <img id="mouse" src="https://i.redd.it/xyi0dra2m7m71.png">
     <script src="biwascheme.js"></script>
     <script type="text/biwascheme">
-      (print "Hello, world!")
-      (print (current-date))
-      (console-log "ok.")
+      (alert "kakapup")
+      (set-style! (getelem "h1") "color" "red")
+      //(element-hide! (getelem "#mouse"))
     </script>
   </body>
 </html>
